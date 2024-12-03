@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root {
+	--color-general: #686868;
+	--color-titulos: #303030;
+	--color-hover-menu: #FE8F01;
+	--fondo-header: #202020;
+	--fondo-footer: #353330;
+	--letra-footer: #777;
+	font-title: 'Alegreya', serif;
+	font-body: 'Alegreya Sans', sans-serif;
+	--accent-color: #C59D5F;
+	--primary-color: #333;
+	--secondary-color: #F8F8F8;
+}
+
+
+body{
+	font-size: 17px;
+	color: #666;
+}
+header{
+	background-color:#232222;
+}
+
+.who{
+	
+}
+
+.who h2{
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+.who i{
+	color: #735930;
+}
+
+.whop{
+	
+	margin-bottom: 30px;
+}
+.location{
+	background-color: #DFDFDF;
+}
+.location h2{
+	margin-top: 100px;
+}
+
+.location p{
+	margin-top: 30px;
+}
+
+.baking p{
+	margin-bottom:50px;
+}
+
+.bsubt{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 100;
+}
+.btext{
+	color: #858585;
+}
+footer{
+	background-color:#2D2D2D;
+	padding: 15px 0;
+	color: var(--letra-footer);
+	text-align: center;
+}
+footer img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--primary-color);
+}
+
+.container {
+  width: 90%;
+
+  margin: auto;
+}
+
+.hero {
+  background-image: url("../img/hero-image.jpg");
+  text-align: center;
+  padding: 250px;
+  color: #fff;
+	background-size:100%;
+}
+
+.hero h1 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-outline {
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-buttons .btn {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.hero-buttons .btn-outline {
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.who-we-are,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.who-we-are img,
+.location img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.baking{
+	text-align: center;
+}
+  
